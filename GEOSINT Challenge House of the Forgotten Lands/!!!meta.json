@@ -1,0 +1,84 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.95.0",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "BiU1j56wgDLk",
+			"notePath": [
+				"BiU1j56wgDLk"
+			],
+			"title": "GEOSINT Challenge: House of the Forgotten Lands",
+			"notePosition": 110,
+			"prefix": null,
+			"isExpanded": false,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dataFileName": "GEOSINT Challenge House of the.html",
+			"attachments": [
+				{
+					"attachmentId": "escrv8mSybdS",
+					"title": "guesthouse.JPG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "GEOSINT Challenge House of.JPG"
+				},
+				{
+					"attachmentId": "hrVqay6Gdfby",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "GEOSINT Challenge House of.png"
+				},
+				{
+					"attachmentId": "mAY0CTNlp9UC",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "1_GEOSINT Challenge House of.png"
+				},
+				{
+					"attachmentId": "tE3jp7V9zLpo",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "2_GEOSINT Challenge House of.png"
+				},
+				{
+					"attachmentId": "tU79yRsBFcR7",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "3_GEOSINT Challenge House of.png"
+				},
+				{
+					"attachmentId": "WxX9e0TnoZ91",
+					"title": "house.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "4_GEOSINT Challenge House of.png"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

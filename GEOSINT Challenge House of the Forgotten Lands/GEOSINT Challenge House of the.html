@@ -1,0 +1,151 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <base target="_parent">
+    <title data-trilium-title>GEOSINT Challenge: House of the Forgotten Lands</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>GEOSINT Challenge: House of the Forgotten Lands</h1>
+
+      <div class="ck-content">
+        <h2>Challenge Description</h2>
+        <blockquote>
+          <p>In the quiet stretches of forgotten lands, some places linger, unnoticed
+            and untouched, as though time itself has chosen to bypass them. A humble
+            dwelling, nestled in a corner of the world that few travelers ever venture
+            to. At first glance, it appears to be nothing more than an ordinary house,
+            weathered by time, blending into its surroundings as if it were part of
+            the very earth itself.</p>
+          <p>But as you begin to search, something feels… off. The house, though unremarkable
+            on the surface, seems to hold secrets hidden beneath its foundation. A
+            faint sense of magic lingers in the air, barely perceptible, but undeniable.
+            Why has this house remained so inconspicuous in a world full of grand castles,
+            mythical creatures, and ancient ruins? What is its purpose, and who—or
+            what—might have called it home?</p>
+          <p>The more you uncover, the deeper the mystery grows. The trail is faint,
+            the records scarce, but you cannot shake the feeling that this house holds
+            a story—a story buried deep within its walls, waiting to be revealed.</p>
+          <p>And as you continue your search, following the scattered clues, you might
+            find yourself thinking: "After all this, I could really use a good soak
+            in a nearby hot tub." Whether it’s the slow pace of discovery or the mystery
+            itself, sometimes the greatest rewards are found in the simplest of comforts.</p>
+          <p>Good luck uncovering the mysteries of the House of the Forgotten Lands.</p>
+        </blockquote>
+        <aside class="admonition important">
+          <p>Flag Format: GregorSec{StreetName_Number_Town}</p>
+        </aside>
+        <p>
+          <img src="4_GEOSINT Challenge House of.png" width="1895" height="954">
+        </p>
+        <h2>Analysis</h2>
+        <p>Most of the description is just fun little background for a challenge
+          that doesn't really provide anything useful to the challenge however there
+          is one line specifically that should be considered a hint (more on this
+          later).</p>
+        <h3>Where is the Sun?</h3>
+        <p>Some things that need to be taken into consideration is the direction
+          of the house is facing. Though it is difficult to tell we are able to faintly
+          see the shadows of the trees. This tells us that the sun is behind the
+          camera somewhere on the right side. While the image is well lit, it doesn't
+          seem to be the brightest it could be if it were mid day, so we can assume
+          its before mid day. If we take both of these into consideration we can
+          reasonably argue that the house is facing South as the sun is yet to reach
+          it's highest point and its path from our perspective is right to left or
+          in other words East to West.</p>
+        <aside class="admonition note">
+          <p>Knowing the house is facing South with the sun rising from the East from
+            behind our perspective, we can narrow it down to the Northern Hemisphere.</p>
+        </aside>
+        <h3>What brand is that caravan?</h3>
+        <p>Next we can take notice of the caravan next to the house. If we give the
+          image to Google Images and focus on the caravan we get quite a few results
+          leading back to the brand, Knaus.</p>
+        <aside class="admonition note">
+          <p>Knaus being a German brand allows to shift our prospective closer to Europe.</p>
+        </aside>
+        <figure class="image image-style-align-center">
+          <img style="aspect-ratio:1302/887;" src="3_GEOSINT Challenge House of.png"
+          width="1302" height="887">
+        </figure>
+        <h3>The Hill</h3>
+        <p>Nothing really to point out about the hill besides the fact that you know
+          the hill is on the right and will help you line up the house. I guess you
+          could have used a topographic map looking for villages that have a hill
+          on the East side.</p>
+        <aside class="admonition note">
+          <p>Honestly I choose this specific location for 2 reasons. I randomly spun
+            google maps a ton and zoomed in on a single location and I really liked
+            the hill. Gave me Windows XP Bliss vibes.</p>
+        </aside>
+        <h3>The Hot Tub</h3>
+        <figure class="image image-style-align-right">
+          <img style="aspect-ratio:235/145;" src="GEOSINT Challenge House of.JPG"
+          width="235" height="145">
+        </figure>
+        <blockquote>
+          <p>After all this, I could really use a good soak in a nearby hot tub.</p>
+        </blockquote>
+        <p>This line alluded to a nearby guesthouse that mentions free hot tub. This
+          in my opinion is the biggest give away before the extra hints. However
+          this alone does not provide us much detail on the actual location of the
+          house.</p>
+        <aside class="admonition important">
+          <p>There is a hot tub nearby!</p>
+        </aside>
+        <h3>The House</h3>
+        <aside class="admonition important">
+          <p>We can clearly see that the house has a number on it, 5.</p>
+        </aside>
+        <p>Congrats that's ⅓ of the flag!</p>
+        <p>Seriously though, we know the house is visible via street view. The style
+          is not typical for a Western Style house. This further points it closer
+          to the East.</p>
+        <h3>Hint #1 (or 2 if you consider the hot tub line a hint)</h3>
+        <blockquote>
+          <p>The house is rumored to be in lands covered in ice. With a measly population
+            that numbers less than 200.</p>
+        </blockquote>
+        <p>This hint basically just tells you it's Iceland as well as it's a very
+          small town.</p>
+        <p>Using this information you could have used the <a href="https://en.wikipedia.org/wiki/Localities_of_Iceland">Locations of Iceland wiki page</a> to
+          form a list of villages and settlements to narrow your search.</p>
+        <h3>Hint #2 (or 3)</h3>
+        <blockquote>
+          <p>The street name sounds/looks like it could be a name for a dragon.</p>
+        </blockquote>
+        <p>I will admit this one is pretty subjective, however I personally find
+          that the street name, Smaragrund, to sound as if it were taken straight
+          from a fictional story. It appears to be a combination of the Icelandic
+          words, <a href="https://www.merriam-webster.com/dictionary/smaragd">smaragd</a> meaning
+          emerald and <a href="https://en.wiktionary.org/wiki/grund">grund</a> meaning
+          ground. Essentially meaning Emerald Ground.</p>
+        <p>This makes me think of Smaug from J.R.R Tolkien's The Hobbit. Thus I imagine
+          a Emerald Green dragon with the power to shake the ground, named Smaragrund.</p>
+        <aside
+        class="admonition note">
+          <p>I guess my hint should have included the either of these words: Emerald
+            or Green. So I apologize as this hint was not very good.</p>
+          </aside>
+          <h4>Flagging</h4>
+          <p>Using a combination of information gathered from the Analysis (and the
+            hints if these were used), you would have eventually gotten to Laugarbakki,
+            Iceland. Using the satellite view, you would eventually find our House
+            of the Forgotten Lands!</p>
+          <figure class="image">
+            <img style="aspect-ratio:678/592;" src="2_GEOSINT Challenge House of.png"
+            width="678" height="592">
+          </figure>
+          <aside class="admonition important">
+            <p>Flag: GregorSec{Smaragrund_5_Laugarbakki}</p>
+          </aside>
+          <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>
