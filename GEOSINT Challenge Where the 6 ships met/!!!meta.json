@@ -1,0 +1,84 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.95.0",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "g9wGT2WbE5Ec",
+			"notePath": [
+				"g9wGT2WbE5Ec"
+			],
+			"title": "GEOSINT Challenge: Where the 6 ships met",
+			"notePosition": 120,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dataFileName": "GEOSINT Challenge Where the 6 .html",
+			"attachments": [
+				{
+					"attachmentId": "2mz4hhiywLXV",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "GEOSINT Challenge Where th.png"
+				},
+				{
+					"attachmentId": "5fez1mySZojk",
+					"title": "ships.PNG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "1_GEOSINT Challenge Where th.PNG"
+				},
+				{
+					"attachmentId": "9MU4IEaon0pY",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "2_GEOSINT Challenge Where th.png"
+				},
+				{
+					"attachmentId": "moto5e0Vwntd",
+					"title": "house.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "3_GEOSINT Challenge Where th.png"
+				},
+				{
+					"attachmentId": "PIHc2hTuVBe3",
+					"title": "guesthouse.JPG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "GEOSINT Challenge Where th.JPG"
+				},
+				{
+					"attachmentId": "VHuQDG0BiadG",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "4_GEOSINT Challenge Where th.png"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

@@ -1,0 +1,101 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <base target="_parent">
+    <title data-trilium-title>GEOSINT Challenge: Where the 6 ships met</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>GEOSINT Challenge: Where the 6 ships met</h1>
+
+      <div class="ck-content">
+        <h2>Challenge Description</h2>
+        <blockquote>
+          <p><span style="background-color:oklab(0.577380.0140701-0.208587/0.0784314);color:oklab(0.8945140.000141621-0.0041967);">Intel has intercept that XYZ bad guy group has cargo coming in that contains biological warfare weaponry that we need to stop. We have found an image of the 4 cargo ships meeting up with 2 ships to transfer the weapon over. However our inside source was silenced before they could tell us where it was taken. We need you to figure out where the handoff took place so we can dig up some dirt from the locals.</span>
+          </p>
+        </blockquote>
+        <aside class="admonition important">
+          <p><span style="background-color:oklab(0.577380.0140701-0.208587/0.0784314);color:oklab(0.8945140.000141621-0.0041967);">Flag Format: GregorSec{Seat_Territory_Region_Country}</span>
+          </p>
+        </aside>
+        <figure class="image">
+          <img style="aspect-ratio:1914/827;" src="1_GEOSINT Challenge Where th.PNG"
+          width="1914" height="827">
+        </figure>
+        <h2>Analysis</h2>
+        <p>Upon the initial analysis of the image, we can see what appears to be
+          a setting sun, 4 cargo ships sailing from left to right, 2 sailboats sailing
+          from right to left, some rocks in the water, and grass.</p>
+        <h3>Where is the Sun?</h3>
+        <p>With what appears to be the sun setting we can reasonably assume that
+          the left side of the image is actually West. This allows us to determine
+          that our perspective is facing North.</p>
+        <aside class="admonition important">
+          <p>Knowing the sun is setting allows us to determine that we are facing North.
+            This would mean that this image was most likely taken in the Southern Hemisphere</p>
+        </aside>
+        <h3>What about the ships?</h3>
+        <p>We can take notice that the ships are close enough to look decently sized
+          in the photo but still far away enough that it does not appear they are
+          preparing to dock here. This likely means they are sailing past which should
+          lead us to thinking we are on an island.</p>
+        <aside class="admonition important">
+          <p>If we are indeed on an island, in the Southern Hemisphere, this is extremely
+            helpful for narrowing down potential locations, I would say about 20 locations
+            or so.</p>
+        </aside>
+        <h3>The rocks</h3>
+        <p>We can clearly see that there are black volcanic rocks in the water just
+          off the coastline. This further strengthens our lead of it being an island
+          specifically one of volcanic origin.</p>
+        <aside class="admonition important">
+          <p>We are almost 100% sure we are on an island in the Southern Hemisphere
+            of volcanic origin.</p>
+        </aside>
+        <h3>Hint #1</h3>
+        <blockquote>
+          <p>Investigate southern remote islands along quiet trade routes known for
+            cargo handoffs away from surveillance.</p>
+        </blockquote>
+        <p>This just straight up tells us we are in the Southern Hemisphere.</p>
+        <p>Using this information you could have used the <a href="https://en.wikipedia.org/wiki/Southern_Hemisphere#Island_countries_or_territories">Island countries or territories section in the Southern Hemisphere</a> wiki
+          to form a list of potential islands to narrow our search.</p>
+        <h3>Hint #2</h3>
+        <blockquote>
+          <p>The first time our contact was willing to meet us, required us to meet
+            at the only town in the area.</p>
+        </blockquote>
+        <p>This would narrow it down to islands that have only 1 main town/city.</p>
+        <aside
+        class="admonition note">
+          <p>The flag format also alludes to this by using the word seat instead of
+            town.</p>
+          </aside>
+          <h4>Flagging</h4>
+          <p>Using a combination of information gathered from the Analysis (and the
+            hints if these were used), you would have found Hanga Roa, Easter Island.
+            Simply using street view along the coastline we can find the exact spot
+            to confirm that this is the correct location.</p>
+          <aside class="admonition tip">
+            <p>The <a href="https://en.wikipedia.org/wiki/Hanga_Roa">Hanga Roa wiki</a> provides
+              you with all the information required for the flag. Seat in this case would
+              be the administrative center or capital of that island.</p>
+          </aside>
+          <figure class="image">
+            <img style="aspect-ratio:1117/777;" src="4_GEOSINT Challenge Where th.png"
+            width="1117" height="777">
+          </figure>
+          <aside class="admonition important">
+            <p>Flag: GregorSec{HangaRoa_IslaDePascua_Valparaiso_Chile}</p>
+          </aside>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>
