@@ -1,0 +1,124 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.95.0",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "geh9pzsCRfLL",
+			"notePath": [
+				"geh9pzsCRfLL"
+			],
+			"title": "Misc/Crypto Challenge: Captured Signal",
+			"notePosition": 130,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dataFileName": "MiscCrypto Challenge Captured .html",
+			"attachments": [
+				{
+					"attachmentId": "2MgEjhWo5F3a",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "4GhoUXMa01FL",
+					"title": "ships.PNG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "1_MiscCrypto Challenge Captu.PNG"
+				},
+				{
+					"attachmentId": "ani3LjU3yjdK",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "2_MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "F83NvJDfQkh1",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "3_MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "GXHiwpskHmLW",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "4_MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "HvTKiDhiBBAU",
+					"title": "decode1.JPG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "MiscCrypto Challenge Captu.JPG"
+				},
+				{
+					"attachmentId": "KxR4fruZFmeq",
+					"title": "decodedmessage.JPG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "1_MiscCrypto Challenge Captu.JPG"
+				},
+				{
+					"attachmentId": "ntIUe7Imt3KP",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "5_MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "OQDdoz8HBukj",
+					"title": "decode2.JPG",
+					"role": "image",
+					"mime": "image/jpg",
+					"position": 10,
+					"dataFileName": "2_MiscCrypto Challenge Captu.JPG"
+				},
+				{
+					"attachmentId": "RdyFexqcgkEM",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "6_MiscCrypto Challenge Captu.png"
+				},
+				{
+					"attachmentId": "y2IJFVcOl9XH",
+					"title": "image.png",
+					"role": "image",
+					"mime": "image/png",
+					"position": 10,
+					"dataFileName": "7_MiscCrypto Challenge Captu.png"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}
